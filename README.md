@@ -1,4 +1,4 @@
-![cf](https://i.imgur.com/7v5ASc8.png) Lab 34: UI Styling and Action Testing
+![cf](https://i.imgur.com/7v5ASc8.png) Lab 34: UI Styling and Action/Reducer Testing
 ======
 
 ## Submission Instructions
@@ -53,7 +53,9 @@ Your "_vars" partial should contain *at least* the following variables:
   * `$gutter` - generic padding/margin gutter for formatting
 
 ## Testing
-Test **all** of your action creators to ensure that they contain the correct properties (`type` and `payload`).  Be sure to also test that the `payload` contains the proper data.
+Test **all** of your action creators to ensure that they contain the correct properties (`type`, `payload`, etc).
+
+Test **all** of your reducers to ensure that the state is updated when an action is dispatched.
 
 ## Stretch Goals
 Use `@extend` to extend an elements styles and apply to another element and create a custom mixin for the handling of vendor prefixes.  For example (you may not use the mixin below as part of the completion of your strecth goals):
